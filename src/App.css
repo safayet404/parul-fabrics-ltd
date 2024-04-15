@@ -1,0 +1,46 @@
+:root{
+    --color-212529 : #212529;
+    --color-ffd333 : #ffd333;
+    --color-47ad24 : #47ad24;
+    --color-e52e2e : #e52e2e;
+    --color-828599 : #828599;
+    --color-ed464d : #ed464d;
+    --color-c3d4da : #c3d4da;
+ 
+
+}
+
+.error{
+    color: red;
+    font-size: medium;
+    font-weight: 400 ;
+    margin-bottom: 20px;
+}
+.green{
+    color: var(--color-47ad24);
+}
+
+.red{
+    color: var(--color-e52e2e);
+}
+.form-control{
+    box-shadow: none !important;
+    border: var(--color-c3d4da) !important;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+
+@media (min-width: 768px) {
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+    padding: 16px 16px;
+    }
+    }
